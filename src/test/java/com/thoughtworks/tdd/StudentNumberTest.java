@@ -86,6 +86,17 @@ public class StudentNumberTest {
         //then
         assertThat(actual, is(expectedResult));
     }
+    @Test
+    public void should_return_BuzzWhizz_when_call_number_given_35() {
+        //given
+        String expectedResult="BuzzWhizz";
+
+        //when
+        String actual=Student.number(35);
+
+        //then
+        assertThat(actual, is(expectedResult));
+    }
 
 
 
