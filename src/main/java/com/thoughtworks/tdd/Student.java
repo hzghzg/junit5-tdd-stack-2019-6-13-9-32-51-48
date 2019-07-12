@@ -11,6 +11,8 @@ public class Student {
         else if(i%7==0){
             return "Whizz";
         }
+        else if(i==13)
+            return "Fizz";
         else
         return ""+i;
     }

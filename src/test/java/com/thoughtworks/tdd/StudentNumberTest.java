@@ -53,6 +53,17 @@ public class StudentNumberTest {
         //then
         assertThat(actual, is(expectedResult));
     }
+    @Test
+    public void should_return_Fizz_when_call_number_given_13() {
+        //given
+        String expectedResult="Fizz";
+
+        //when
+        String actual=Student.number(13);
+
+        //then
+        assertThat(actual, is(expectedResult));
+    }
 
 
 
